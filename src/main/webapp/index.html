@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do Tour</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="website icon" type="logo" href="./imagens/DT icon.png">
+    <link rel="stylesheet" href="./Css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+
+            <div class="container">
+                <a href="index.html"><img src="./imagens/Logo DT.svg" alt="logo Do Tour"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link link-navegacao" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-navegacao" href="Promocoes.html">Promoções</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle link-navegacao" href="destinos.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Destinos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="destinos.html">Fernando de Noronha - Brasil</a></li>
+                                <li><a class="dropdown-item" href="destinos.html">Machu Picchu - Peru</a></li>
+                                <li><a class="dropdown-item" href="destinos.html">MonteVerde - Costa Rica </a></li>
+                                <li><a class="dropdown-item" href="destinos.html">Patagônia - Argentina</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link link-navegacao" href="#contato">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-navegacao" href="cadastro.jsp">Iniciar sessão</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <div class="conteudo-header">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Selecionar destino</option>
+                <option value="1">Fernando de Noronha</option>
+                <option value="2">Patagônia</option>
+                <option value="3">Machu Picchu</option>
+                <option value="3">Monte Verde</option>
+            </select>
+            <input type="date" name="date" id="">
+            <button type="button" class="btn btn-outline-warning">Finalizar</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="titulo">
+            <h1 id="melhores-destinos">Os melhores destinos</h1>
+        </div>
+        <section class="container-principal">
+            <a href="destinos.html">
+                <div class="caixa" style="background-image: url(./imagens/Fernado_de_Noronha_Pernambuco.jpg);"></div>
+            </a>
+            <a href="destinos.html">
+                <div class="caixa" style="background-image: url(./imagens/machu-pichu-1058510_1920.jpg);"></div>
+            </a>
+            <a href="destinos.html">
+                <div class="caixa" style="background-image: url(./imagens/MonteVerdeCostaRica.jpg);"></div>
+            </a>
+            <a href="destinos.html">
+                <div class="caixa" style="background-image: url(./imagens/Patagonia_Argentina.jpg);">
+                </div>
+            </a>
+        </section>
+
+        <article class="sobre-nos">
+
+            <div>
+                <h1 id="sobre">Sobre a Do Tour</h1>
+            </div>
+            <div>
+                <p>Somos uma agência de viagens especializada em proporcionar experiências inesquecíveis de conexão com
+                    a natureza. Se você busca ugir da agitação urbana e mergulhar em destinos incriveis, cercados pela
+                    beleza selvagem do mundo natural, então você está no lugar certo!</p>
+                <p>Na Do Tour, acreditamos que viajar pela natureza é uma jornada de autodescoberta, uma
+                    oportunidade para renovar o espírito e nutrir a alma. Combinando aventura e educação ambiental,
+                    nossos roteiros proporcionam uma experiência única, onde cada passo é uma conexão com a
+                    grandiosidade e fragilidade do mundo natural.</p>
+                <p>Então, se você está pronto para explorar o lado mais puro e exuberante do mundo, venha conosco e
+                    descubra a magia das viagens naturais com a Do Tour. Junte-se a nós para criar
+                    memórias duradouras enquanto contribuímos para a proteção do nosso planeta para as futuras gerações.
+                    A aventura está apenas começando!</p>
+
+            </div>
+
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div id="contato" class="container-form">
+                    <h2 style="color: #FFF2E7;">Entre em Contato</h2>
+                    <div class="mb-3">
+                        <label style="width: 400px; color: #FFF2E7;" for="exampleFormControlInput1"
+                            class="form-label">Email:</label>
+                        <input type="email" class="form-control form-input" id="exampleFormControlInput1"
+                            placeholder="email@gmail">
+                    </div>
+                    <div class="mb-3">
+                        <label style="width: 400px; color: #FFF2E7;" for="exampleFormControlTextarea1"
+                            class="form-label">Digite
+                            sua Dúvida:</label>
+                        <textarea class="form-control form-input" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Links rápidos</h6>
+                    <ul class="footer-links">
+                        <li><a href="#melhores-destinos">Melhores destinos</a></li>
+                        <li><a href="#">Politica de privacidade</a></li>
+                        <li><a href="Promocoes.html">Promoções em alta</a></li>
+                        <li><a href="#sobre">Sobre nós</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by Do Tour.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <a style="width: 60px;" href="https://www.instagram.com/" target="_blank"><img style="width: 45px;"
+                        src="./imagens/logo-instagram 1.svg" alt="instagram"></a>
+                <a style="width: 60px;" href="https://twitter.com/" target="_blank"><img style="width: 45px;"
+                        src="./imagens/logo-twitter 1.svg" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

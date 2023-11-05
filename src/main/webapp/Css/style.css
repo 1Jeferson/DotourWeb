@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-background: #fae0bd;
+    --header-footer: #000000;
+    --hover-nav: #EBD000;
+    --hover-button: #D8C84D;
+    --font-white: #f8efe2;
+    --font-black: #332D2D;
+    --footer-font: #737373;
+    --orange-google: #DD4B39;
+    --blue-login: #16a085;
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+/* AQUI COMEÇA O HEADER */
+
+.link-navegacao {
+    color: var(--font-white);
+    font-size: 22px;
+}
+
+.link-navegacao:hover {
+    color: var(--hover-nav);
+}
+
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1.2rem 3.2rem;
+    background-color: var(--header-footer);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.container {
+    gap: 50px;
+
+}
+
+.conteudo-header {
+    background-color: var(--header-footer);
+    text-align: center;
+    height: 350px;
+    padding-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-header h1 {
+    color: var(--font-white);
+}
+
+.conteudo-header input {
+    height: 40px;
+    width: 18%;
+    text-align: center;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.conteudo-header button {
+    height: 40px;
+    width: 170px;
+    border-radius: 5px;
+    margin-left: 2px;
+    color: var(--font-white);
+    background-color: var(--hover-button);
+}
+
+.form-select {
+    width: 18%;
+    height: 40px;
+    text-align: center;
+    color: var(--font-black);
+    border-radius: 5px 0px 0px 5px;
+}
+
+.promo-photo img {
+    width: 700px;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+
+/* AQUI ACABA O HEADER */
+
+/* AQUI COMEÇA A MAIN COM TODOS OS CONTEÚDOS */
+
+.titulo {
+    color: var(--font-black);
+    margin-top: 100px;
+}
+
+.titulo h1 {
+    font-size: 30px;
+    color: var(--font-black);
+    margin-left: 9%;
+    margin-bottom: 20px;
+}
+
+.container-principal {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container-principal .caixa {
+    width: 200px;
+    height: 200px;
+    border-radius: 35px;
+    background-size: cover;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.container-principal .caixa:hover {
+    scale: 1.1;
+    transition: .5s;
+}
+
+.container-principal .caixa::before {
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    background-size: cover;
+    filter: blur(25px);
+    opacity: 0.5;
+    transition: .2s;
+}
+
+.container-principal .caixa:hover::before {
+    opacity: 0;
+    transition: .2s;
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container-cards h5 {
+    color: var(--font-white);
+}
+
+.container-cards p {
+    color: var(--font-white);
+}
+
+/* SOBRE */
+
+.sobre-nos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 85%;
+    margin-left: 9%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.sobre-nos h1 {
+    color: var(--font-black);
+    font-size: 30px;
+}
+
+.sobre-nos p {
+    color: var(--font-black);
+    font-size: 22px;
+}
+
+/* FIM SOBRE */
+
+/* AQUI COMEÇA A ESTILIZAÇÃO DA PÁGINA DESTINOS */
+.container-destinos {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.card {
+    width: 300px;
+    height: 590px;
+    margin: 25px;
+    background-color: var(--font-white);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card-header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+
+.card-body {
+    height: 130px;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card-local {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card-titulo {
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.card p {
+    color: var(--font-black);
+    font-weight: 500;
+}
+
+
+.card-footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color: var(--header-footer);
+}
+
+.card-footer a {
+    color: var(--hover-button);
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.card:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+/* AQUI ACABA A ESTILIZAÇÃO DA PÁGINA DESTINOS */
+
+/* RODAPÉ DA PÁGINA */
+
+.site-footer {
+    background-color: var(--header-footer);
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--footer-font);
+}
+
+.site-footer hr {
+    border-top-color: var(--font-white);
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: var(--font-white);
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: var(--font-white);
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+    display: block
+}
+
+.footer-links a {
+    color: var(--footer-font)
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: var(--hover-button);
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+.copyright-text {
+    margin: 0
+}
+
+.container-form {
+    width: 400px;
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600
+    }
+}
