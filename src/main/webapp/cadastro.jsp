@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="./Css/formstyle.css">
 <link rel="stylesheet" href="./Css/style.css">
 <link rel="webisite icon" type="logo"
-	href="/Front_end/imagens/DT icon.png">
+	href="./imagens/DT LOGO.png">
 </head>
 <body>
 <body>

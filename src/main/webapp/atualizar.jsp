@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <link rel="icon" type="image/x-icon" href="./icon/favicon.ico">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="website icon" type="logo" href="./imagens/DT icon.png">
+<link rel="website icon" type="logo" href="./imagens/DT LOGO.png">
 <link rel="stylesheet" href="./Css/style.css">
 <title>Atualizar</title>
 </head>

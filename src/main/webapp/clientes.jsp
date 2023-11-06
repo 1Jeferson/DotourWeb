@@ -12,7 +12,7 @@
 	rel="stylesheet"
 	integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
 	crossorigin="anonymous">
-<link rel="website icon" type="logo" href="./imagens/DT icon.png">
+<link rel="website icon" type="logo" href="./imagens/DT LOGO.png">
 <link rel="stylesheet" href="./Css/style.css">
 </head>
 
@@ -20,7 +20,7 @@
 
 	<nav class="navbar-expand-lg" style= "padding: 20px ">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="index.html" style = "text-transform: uppercase; font-size: 30px;letter-spacing: 2px; font-weight: 400; " >administrador do tour</a>
+			<a class="navbar-brand" href="index.html" style = "text-transform: uppercase; font-size: 30px;letter-spacing: 1px; font-weight: 400; " ><span style="color: #EBD000;">do</span> tour adm</a>
 		</div>
 	</nav>
 
